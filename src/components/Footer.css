@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  background-color: #2a4f6d;
+  color: #fff;
+  padding: 50px 0 20px;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col-a {
+  flex-basis: 29%;
+  padding: 10px;
+  padding-right: 70px;
+}
+
+.col {
+  flex-basis: 20%;
+  padding-top: 100px;
+  padding-right: 70px;
+  align-items: center;
+  height: 100%;
+}
+.col-b {
+  flex-basis: 29%;
+  padding: 10px;
+  padding-top: 100px;
+}
+
+.logo-secondary {
+  font-weight: bold;
+  font-size: 30px;
+  width: 250px;
+  margin-bottom: 50px;
+  display: block;
+  color: white;
+}
+
+.txt {
+  margin-bottom: 50px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.icons {
+  width: 50px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.content {
+  line-height: 1.2;
+}
+
+.footer-tabs li {
+  padding: 3px 0;
+}
+.footer-tabs li :hover{
+  border-bottom: 1px solid white;
+}
+
+.download-app {
+  font-size: 30px;
+  width: fit-content;
+  margin-bottom: 30px;
+  position: relative;
+}
+.download-option {
+  display: flex;
+  margin-bottom: 20px;
+}
+.download-option img {
+  width: 130px;
+  height: 40px;
+  margin: 10px;
+  padding-right: 5px;
+}
+
+.footer-tabs li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.footer-tabs li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-icons a {
+  flex: grid;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid;
+  margin: 20px auto;
+  opacity: 10%;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.line {
+  width: 100%;
+  height: 5px;
+  background: #757575;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+
+.line span {
+  width: 45px;
+  height: 100%;
+  background: #ccc;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: movi 2s linear infinite;
+}
+
+@keyframes movi {
+  0% {
+    left: -40px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .col {
+    flex-basis: 100%;
+  }
+
+  .col-a {
+    flex-basis: 100%;
+    padding-right: 10px;
+  }
+}
